@@ -1,9 +1,44 @@
 # StorageGuard
+StorageGuard is a free, open-source Linux storage-access control utility designed to help protect against malicious scripts on USB storage devices and certain forms of USB device identity spoofing.
 
-StorageGuard is an open source free Linux storage-access control utility designed to help protect against malicious scripts on USB storage devices and certain forms of USB device identity spoofing.
-It came shiped under the 
+StorageGuard is distributed under the GNU General Public License v2.0 (GPL-2.0). The license is included with every installation in LICENSE.txt, located in the StorageGuard installation directory at /usr/local/src/StorageGuard/LICENSE.txt.
 
-It uses a persistent whitelist to manage trusted storage devices and their authorized partitions. StorageGuard includes a graphical interface, command-line tools, authorization helpers, automatic mounting, and a login mount helper.
+If your installation does not include this file, uninstall StorageGuard and obtain a legitimate copy from the official repository:
+
+https://github.com/TheDungeonDeveloper/StorageGuard/
+
+Installation
+
+You can install StorageGuard form a bash terminal with the following Command:
+
+git clone https://github.com/TheDungeonDeveloper/StorageGuard.git
+cd StorageGuard
+sudo bash install.sh
+
+or you may use the apt-image package from the releases page
+
+View the license
+To display or validate the GNU2.0 license from the Bash terminal, run:
+cat /usr/local/src/StorageGuard/LICENSE.txt
+or navigate to the directory yourself
+
+If after install the license file is missing please uninstall StorageGuard 
+and install directly form this repository
+
+File Hash Signatures
+
+Hash Algorithm   Repository ZIP      StorageGuard.deb
+
+MD5              Pending             Pending
+
+SHA-256          Pending             Pending
+
+SHA-512          Pending             Pending
+
+StorageGuard is a work in progress Utility and is still in development
+check the releases page to see if we have an update
+
+StorageGuard uses a persistent whitelist to manage trusted storage devices and their authorized partitions. StorageGuard includes a graphical interface, command-line tools, authorization helpers, automatic mounting, and a login mount helper.
 
 ## 1. Application Components
 
@@ -19,7 +54,8 @@ It uses a persistent whitelist to manage trusted storage devices and their autho
 | Installer and package | Installs, configures, and upgrades StorageGuard. |
 
 A future GRUB plugin is planned to help prevent boot-level UID spoofing. 
-It will be distributed separately or bundled in a separate StorageGuard installation package.
+It will be distributed separately or bundled in a separate StorageGuard 
+installation package When and if it gets made.
 
 ## 2. Command-Line Interface
 
