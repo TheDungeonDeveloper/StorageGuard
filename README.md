@@ -1,4 +1,4 @@
-# StorageGuard
+# StorageGuard (WIP NOT RELEASED YET)
 StorageGuard is a free, open-source Linux storage-access control utility designed to help protect against malicious scripts on USB storage devices and certain forms of USB device identity spoofing.
 
 StorageGuard is distributed under the GNU General Public License v2.0 (GPL-2.0). The license is included with every installation in LICENSE.txt, located in the StorageGuard installation directory at /usr/local/src/StorageGuard/LICENSE.txt.
